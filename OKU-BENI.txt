@@ -1,0 +1,17 @@
+Fonksiyon Arenasi - Android projesi
+====================================
+arena.apk uretmek icin iki yol:
+
+A) Android Studio (bilgisayarda)
+   1. Bu klasoru Android Studio ile ac (File > Open).
+   2. Gradle senkronizasyonu bitince: Build > Build APK(s).
+   3. Cikan dosya: app/build/outputs/apk/debug/arena-debug.apk
+      Adini arena.apk yapabilirsin.
+
+B) Bilgisayarsiz, GitHub ile
+   1. Bu klasorun icerigini yeni bir GitHub deposuna yukle.
+   2. Actions sekmesi > "arena.apk derle" > Run workflow.
+   3. Bitince "arena.apk" adli ciktiyi indir.
+
+Telefona kurmak icin: apk'yi telefona at, ayarlarda "bilinmeyen kaynaklardan kurulum"a izin ver.
+Oyunun kendisi app/src/main/assets/index.html dosyasidir; oyunu degistirirsen bu dosyayi guncelle.
